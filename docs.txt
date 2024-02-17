@@ -1,0 +1,14 @@
+1. First of all you have to create new postgreSQL database. Called    "parking"
+
+2. Install necessary libraries with                                   "npm install"
+
+3. Connect to your own database server. In order to do this you have to change the  ".env"  file.
+
+    DATABASE_URL="postgresql://username:password@localhost:5432/parking?schema=public"
+
+
+
+4. Migrate the prisma with "npx prisma migrate dev" 
+
+5. And finally run the code "npm run start:dev" 
+
